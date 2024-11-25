@@ -1,0 +1,104 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(250, 245, 245); /* Dark blue background */
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: #dceaea; /* Keep the container white for contrast */
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #253240; /* Dark blue for the left section */
+    color: #dceaea;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #e63946;
+}
+
+.profile-picture {
+    width: 150px; /* Width of the image */
+    height: 150px; /* Height of the image */
+    border-radius: 50%; /* Makes the image circular */
+    border: 5px solid #e63946; /* Border color */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    display: block; /* Ensures proper spacing */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: rgb(25, 23, 23); /* Change h3 text color to white for contrast */
+    border-radius: 10px;
+    box-shadow: 0 0 15px #e63946;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: disc; /* Disc bullet points */
+    padding-left: 20px; /* Indentation */
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+    color: #253240;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff737c;
+}
+
+/* Left Section Headings */
+.left-section h3 {
+    color: white; /* Set heading color to white */
+}
+
+/* Right Section Headings */
+.right-section h3 {
+    color: black; /* Set heading color to black */
+}
+
+/* Optional: If you want to change the main heading (h1) on the right side */
+.right-section h1 {
+    color: black; /* Ensure the main heading is also black */
+}
+
+
